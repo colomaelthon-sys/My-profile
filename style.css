@@ -1,0 +1,67 @@
+body{
+  margin:auto;
+  min-height:100vh;
+  display:flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin:0;
+  padding:0;
+  height:7vh;
+  align-items: center;
+  font-size: small; 
+  position: fixed;
+  top:0;
+  z-index: 1000;
+  width: 100vw;
+}
+
+li {
+  padding-right:1%;
+  padding-left:1%;
+  transition:background-color(lightblue) 0.5;  
+}
+
+ul li:first-child {
+  margin-left: 0;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+ 
+}
+
+header {
+  background-image: linear-gradient(orangered,lightblue,greenyellow,greenyellow,orangered,royalblue);
+  height: 6.5vh;
+  position: fixed;
+  top:0;
+  z-index: 1000;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  height: 30px;
+  border-radius: 70%;
+}
+li:hover {
+  color:white;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 15.7vh;
+
+}
+#educ img {
+height:70vh;
+width: 5px;
+}
